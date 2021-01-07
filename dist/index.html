@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="shortcut icon" href="img/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+          <div class="header-block">
+              <a href="tel: +7 (342) 123-45-67" class="header-phone">
+                  <img src="img/header/phone.webp" alt="" class="header-phone__img">
+                  <span class="header-phone__text">+7 (342) 123-45-67</span> 
+                  <!-- /.header-phone__text -->
+              </a> 
+              <!-- /.header-phone -->
+              <button onclick="show_popap('modal-1')" class="header-button">
+                  <img src="img/header/button-icon.webp" alt="" class="header-button__img">
+                  <span class="header-button__text">Заказать звонок</span> 
+                  <!-- /.header-button__text -->
+              </button> 
+              <!-- /.header-button -->
+            </div>
+          <!-- /.header-block -->
+      </div>
+      <!-- /.container -->
+    </header>
+
+    <main class="main">
+   <section class="section section-hero">
+       <div class="container">
+           <div class="hero">
+               <img src="img/hero/logo.webp" alt="" class="hero-logo">
+               <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Fugiat excepturi suscipit deleniti mollitia. Iusto, nihil dignissimos in porro dolorem pariatur
+                    laboriosam, distinctio at vel hic, voluptate ipsa voluptates? Ipsa, blanditiis?</p>
+               <!-- /.hero-text -->
+           </div>
+           <!-- /.hero -->
+       </div>
+       <!-- /.container -->
+   </section>
+   <!-- /.section section-hero -->
+  <section class="section section-about">
+      <div class="container">
+          <div class="about">
+              <h2 class="about-title">О компании</h2>
+              <!-- /.about-title -->
+              <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                   maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, 
+                   consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                   et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. 
+                   Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                   Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas 
+                   accumsan lacus vel.</p>
+              <!-- /.about-text -->
+              <div class="about-status">
+                  <img src="img/about/left.webp" alt="Левая стрелка" class="about-status__left">
+
+                  <div class="about-status__block">
+                  <div class="about-item">
+                      <span class="about-item__number">5</span>
+                      <!-- /.about-item__number -->
+                      <p class="about-item__text">лет на рынке</p>
+                      <!-- /.about-item__text -->
+                  </div>
+                  <!-- /.about-item -->
+                  <div class="about-line"></div>
+                  <!-- /.about-line -->
+                  <div class="about-item">
+                      <span class="about-item__number">30</span>
+                      <!-- /.about-item__number -->
+                      <p class="about-item__text">довольных <br>
+                        клиентов</p>
+                      <!-- /.about-item__text -->
+                  </div>
+                  <!-- /.about-item -->
+                  <div class="about-line"></div>
+                  <!-- /.about-line -->
+                  <div class="about-item">
+                      <span class="about-item__number">7</span>
+                      <!-- /.about-item__number -->
+                      <p class="about-item__text">дней поставка</p>
+                      <!-- /.about-item__text -->
+                  </div>
+                  <!-- /.about-item -->
+                </div>
+                <!-- /.about-status__block -->
+
+                  <img src="img/about/right.webp" alt="Правая стрелка" class="about-status__right">
+              </div>
+              <!-- /.about-status -->
+          </div>
+          <!-- /.about -->
+      </div>
+      <!-- /.container -->
+  </section>
+  <!-- /.section section-about -->
+
+<section class="section section-services">
+    <div class="container">
+        <div class="services">
+            <div class="services-title">Что мы предлагаем</div>
+            <!-- /.services-title -->
+            <div class="services-block">
+                <div class="services-item">
+                    <div class="services-top services-top__one">
+                        <img src="img/services/one-item.webp" alt="one-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">Компьютерное<br>
+                            оборудование</span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            Системные блоки<br>
+                            Моноблоки<br>
+                            Неттопы<br>
+                            Ноутбуки<br>
+                            Планшеты
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+                <div class="services-item">
+                    <div class="services-top services-top__two">
+                        <img src="img/services/two-item.webp" alt="two-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">Сетевое<br>
+                            оборудование</span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            Коммутаторы<br>
+                            Кабельная продукция<br>
+                            Муршрутизаторы
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+                <div class="services-item">
+                    <div class="services-top services-top__three">
+                        <img src="img/services/three-item.webp" alt="three-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">
+                            Периферийное<br>
+                            оборудование
+                        </span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            Мониторы<br>
+                            Клавиатуры<br>
+                            Мыши<br>
+                            Носители информации<br>
+                            ИБП
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+                <div class="services-item">
+                    <div class="services-top services-top__four">
+                        <img src="img/services/four-item.webp" alt="four-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">Печатная<br>
+                            техника</span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            МФУ<br>
+                            Принтеры<br>
+                            Сканеры<br>
+                            Плоттеры <br>                           
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+                <div class="services-item">
+                    <div class="services-top services-top__five">
+                        <img src="img/services/five-item.webp" alt="five-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">Презентационное<br>
+                            оборудование</span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            Экраны<br>
+                            Проекторы<br>
+                            Видеопанели<br>
+                            Телевиз?
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+                <div class="services-item">
+                    <div class="services-top services-top__six">
+                        <img src="img/services/six-item.webp" alt="six-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">Расходные<br>
+                            материалы</span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            Картриджи<br>
+                            Тоннеры<br>
+                            ЗИП<br>
+                            Сервисные наборы
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+                <div class="services-item">
+                    <div class="services-top services-top__seven">
+                        <img src="img/services/seven_-item.webp" alt="seven-item" class="services-top__img">
+                        <div class="services-top__line"></div>
+                        <!-- /.services-top__line -->
+                    </div>
+                    <!-- /.services-top -->
+                    <div class="services-content">
+                        <span class="services-content__title">Прочее<br>
+                            оборудование</span>
+                        <!-- /.services-content__title -->
+                        <p class="services-content__text">
+                            Терминалы сбора данных<br>
+                            Сканеры штрих кода<br>
+                            Принтеры этикеток
+                        </p>
+                        <!-- /.services-content__text -->
+                    </div>
+                    <!-- /.services-content -->
+                </div>
+                <!-- /.services-item -->
+            </div>
+            <!-- /.services-block -->
+        </div>
+        <!-- /.services -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.section section-services -->
+<section class="section section-contact">
+    <div class="container">
+        <div class="contact">
+            <h2 class="contact-title">Контактная информация</h2>
+            <!-- /.contact-title -->
+            <div class="contact-block">
+                <div class="contact-info">
+                    <address class="contact-info__address">Адрес: 614068, г. Пермь,<br>
+                        ул. Пушкина, дом 116 Б, оф. 2</address>
+                    <!-- /.contact-info__address -->
+                    <div class="contact-info__phone contact-info__block">
+                        <span class="contact-info__text">Телефон:</span> 
+                        <!-- /.contact-info__text -->
+                        <a href="tel: +7 (342) 240-38-83" class="contact-info__a">+7 (342) 240-38-83</a> 
+                        <!-- /.contact-info__a -->
+                    </div>
+                    <!-- /.contact-info__phone -->
+                    <div class="contact-info__email contact-info__block">
+                        <span class="contact-info__text">Почта:</span> 
+                        <!-- /.contact-info__text -->
+                        <a href="mailto: info@it-retail.pro" class="contact-info__a">info@it-retail.pro</a> 
+                        <!-- /.contact-info__a -->
+                        
+                    </div>
+                    <!-- /.contact-info__email -->
+                </div>
+                <!-- /.contact-info -->
+                <div class="contact-form">
+                    <span class="contact-form__title">У вас есть вопросы? <br>
+                        Оставьте сообщение. </span> 
+                    <!-- /.contact-form__title -->
+                    <form action="" class="contact-form__form">
+                       
+                
+                        <input placeholder="Ваше имя" id="name" type="text" class="contact-form__input">
+
+
+                      
+                       
+                        <input placeholder="Ваш номер телефона" id="phone" type="text" class="contact-form__input">
+
+
+                   
+                        <textarea placeholder="Ваше сообщение" name="" id="message" class="contact-form__input contact-form__textarea"></textarea> 
+                        <!-- /#.contact-form__input -->
+                         <button class="contact-button">
+                             <img src="img/contact/cursor.webp" alt="cursor" class="contact-button__img">
+                             <span class="contact-button__text">Отправить</span> 
+                             <!-- /.contact-button__text -->
+                         </button> 
+                         <!-- /.contact-button -->
+                    </form>
+                    <!-- /.contact-form__form -->
+                </div>
+                <!-- /.contact-form -->
+            </div>
+            <!-- /.contact-block -->
+        </div>
+        <!-- /.contact -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.section section-contact -->
+ 
+<section class="section section-map">
+    <div class="container">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6e6ac5d4d1bc726875eabc60b46fdc890fd8fd8bee482650c79a272c97bfe69d&amp;source=constructor" 
+            width="100%" height="540" frameborder="0"></iframe>
+        </div>
+        <!-- /.map -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.section section-map -->
+    </main>
+    
+    <footer class="footer">
+     <div class="container">
+         <div class="footer-block">
+             <span class="footer-policy">IT Retail © 2021 All Rights Reserved | Privacy Policy</span>
+             <!-- /.footer-policy -->
+             <div class="footer-social">
+                 <a href="#" class="footer-social__a">
+                     <img src="img/footer/vk.webp" alt="" class="footer-social__img">
+                    </a>
+                 <!-- /.footer-social__a -->
+                 <a href="#" class="footer-social__a">
+                     <img src="img/footer/ok.webp" alt="" class="footer-social__img">
+                    </a>
+                 <!-- /.footer-social__a -->
+                 <a href="#" class="footer-social__a">
+                     <img src="img/footer/facebook.webp" alt="" class="footer-social__img">
+                    </a>
+                 <!-- /.footer-social__a -->
+                 <a href="#" class="footer-social__a">
+                     <img src="img/footer/instagram.webp" alt="" class="footer-social__img">
+                    </a>
+                 <!-- /.footer-social__a -->
+             </div>
+             <!-- /.footer-social -->
+         </div>
+         <!-- /.footer-block -->
+     </div>
+     <!-- /.container -->
+    </footer>
+
+
+    <div class="overlay" id="modal-1">
+        <div class="flex-popap">
+          <div class="popap">
+            <span class="close_popap">
+              <img src="img/modal/close.webp" alt="close">
+            </span>
+            <h2 class="overlay__title">Оставьте ваш телефон <br>
+              и наш менеджер свяжется с вами</h2>
+              <form action="" class="contact-form__form">
+                       
+                
+                <input placeholder="Ваше имя" id="name-modal" type="text" class="contact-form__input">
+
+
+              
+               
+                <input placeholder="Ваш номер телефона" id="phone-modal" type="text" class="contact-form__input">
+
+
+           
+                <textarea placeholder="Ваше сообщение" name="" id="message-modal" class="contact-form__input contact-form__textarea"></textarea> 
+                <!-- /#.contact-form__input -->
+                 <button class="contact-button">
+                     <img src="img/contact/cursor.webp" alt="cursor" class="contact-button__img">
+                     <p class="contact-button__text">Отправить</p> 
+                     <!-- /.contact-button__text -->
+                 </button> 
+                 <!-- /.contact-button -->
+            </form>
+            <!-- /.contact-form__form -->
+          </div>
+        </div>
+      </div>
+
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+      </script>
+      <script src="js/modal.js"></script>
+</body>
+</html>
