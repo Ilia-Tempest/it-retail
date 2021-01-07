@@ -1,0 +1,144 @@
+a.contact-info__a
+    color: #3c3c3b
+.section-contact
+    padding-top: 75px
+    padding-bottom: 60px
+.contact
+    &-title
+        color: #3c3c3b
+        font-family: "SFUI Text Bold", sans-serif
+        font-size: 30px
+        font-weight: 700
+        font-style: normal
+        letter-spacing: normal
+        line-height: normal
+        text-align: center
+    &-block
+        margin-top: 60px
+        display: flex
+        justify-content: space-around
+    &-info
+        color: #3c3c3b
+        font-family: 'Kurale', serfi
+        font-size: 30px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: normal
+        display: flex
+        flex-direction: column
+        &__block
+            margin-top: 24px
+    &-form
+        box-shadow: -5px 5px 9px rgba(0, 0, 0, 0.1)
+        border-radius: 20px
+        background-color: #ffffff
+        padding: 50px 80px
+        display: flex
+        flex-direction: column
+        &__title
+            color: #3c3c3b
+            font-family: "SFUI Text Regular"
+            font-size: 30px
+            font-weight: 500
+            font-style: normal
+            letter-spacing: normal
+            line-height: normal
+            text-align: center
+        &__form
+            margin-top: 34px
+            display: flex
+            flex-direction: column
+            align-items: center
+        &__input
+            margin-top: 55px
+            border: 0
+            border-bottom: 1px solid #a0a0a0
+            padding-bottom: 10px
+            align-items: center
+            width: 300px
+            margin-left: auto
+            margin-right: auto
+            outline: none
+            &:focus
+                padding-bottom: 20px
+                color: #e20613
+                border-bottom: 1px solid #e20613
+                transition: 1s all
+                &::placeholder
+                    color: #e20613
+
+            &::placeholder
+                color: #e4e2e2
+                font-family: 'Kurale', serif
+                font-size: 18px
+                font-weight: 400
+                font-style: normal
+                letter-spacing: normal
+                line-height: normal
+            &:first-child
+                margin-top: 0px
+        &__textarea
+            padding-bottom: 0px
+    &-button
+        border-radius: 4px
+        background-color: #ea4311
+        border: 0
+        padding-top: 20px
+        padding-bottom: 20px
+        padding-left: 90px
+        padding-right: 90px
+        cursor: pointer
+        margin-top: 40px
+        outline: none
+        display: flex
+        align-items: center
+        justify-content: center
+        &__text
+            color: #ffffff
+            font-family: "SFUI Text Regular"
+            font-size: 18px
+            font-weight: 400
+            font-style: normal
+            letter-spacing: normal
+            line-height: normal
+            margin-left: 10px
+        
+@media (max-width: 1140px)
+    .contact
+        &-block
+            flex-direction: column-reverse
+            align-items: center
+            margin-top: 40px
+        &-form
+            margin-bottom: 40px
+
+@media (max-width: 768px)
+    .section-contact
+        padding-top: 40px
+        padding-bottom: 40px 
+    .contact
+        &-info
+            font-size: 24px
+            &__block
+                margin-top: 18px
+        &-form
+            margin-bottom: 30px
+            padding-left: 0px
+            padding-right: 0px
+            width: 100%
+            &__input
+                width: 80%
+            &__title
+                font-size: 24px
+        
+@media (max-width: 480px)
+    .contact
+        &-info
+            font-size: 20px
+        &-block
+            margin-top: 25px
+        &-button
+            padding-left: 0px
+            padding-right: 0px
+            width: 80%

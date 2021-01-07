@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+
+//Regular
+@font-face {
+    font-family: 'SFUI Text Regular';
+    src: url('../fonts/San-Francisco/Regular/SFUIText-Regular.eot');
+    src: url('../fonts/San-Francisco/Regular/SFUIText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/San-Francisco/Regular/SFUIText-Regular.woff') format('woff'),
+    url('../fonts/San-Francisco/Regular/SFUIText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Bold
+@font-face {
+    font-family: 'SFUI Text Bold';
+    src: url('../fonts/San-Francisco/Bold/SFUIText-Bold.eot');
+    src: url('../fonts/San-Francisco/Bold/SFUIText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/San-Francisco/Bold/SFUIText-Bold.woff') format('woff'),
+    url('../fonts/San-Francisco/Bold/SFUIText-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

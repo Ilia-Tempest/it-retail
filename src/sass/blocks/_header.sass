@@ -1,0 +1,62 @@
+.header
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1)
+    background-color: #1d1d1b
+    padding-top: 20px
+    padding-bottom: 20px
+    &-block
+        display: flex
+        justify-content: flex-end
+    &-phone
+        display: flex
+        align-items: center
+        margin-right: 73px
+        &__img
+            margin-right: 22px
+        &__text
+            font-family: 'Kurale', serif
+            color: #ffffff
+            font-size: 24px
+            font-weight: 400
+            font-style: normal
+            letter-spacing: normal
+    &-button
+        border-radius: 4px
+        background-color: #ea4311
+        padding: 20px 43px
+        display: flex
+        align-items: center
+        outline: none
+        border: none
+        cursor: pointer
+        &__img
+            margin-right: 9px
+        &__text
+            color: #ffffff
+            font-family: 'Kurale', serif
+            font-size: 18px
+            font-weight: 400
+            font-style: normal
+@media (max-width: 768px)
+    .header
+        &-block
+            justify-content: center
+        &-phone
+            margin-right: 50px
+            &__text
+                font-size: 16px
+            &__img
+                margin-right: 14px
+        &-button
+            padding: 20px
+
+@media (max-width: 480px)
+    .header
+        &-phone
+            margin-right: 0px
+            margin-top: 12px
+        &-block
+            flex-direction: column-reverse
+            align-items: center
+        &-button
+            padding: 20px 40px
+            

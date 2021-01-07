@@ -1,0 +1,101 @@
+.section-about
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1)
+    background-color: #ffffff
+    padding-top: 100px
+    padding-bottom: 50px
+.about
+    &-title
+        color: #3c3c3b
+        font-family: 'Kurale', serif
+        font-size: 30px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: normal
+        text-align: center
+        margin-bottom: 60px
+    &-text
+        color: #3c3c3b
+        font-family: 'Kurale', serif
+        font-size: 20px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: 36px
+        text-align: center
+    &-line
+        background-color: #a0a0a0
+        width: 1px
+        height: 63px
+        align-self: center
+        margin-left: 50px 
+        margin-right: 50px
+    &-status
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 55px
+        &__block
+            align-items: flex-start
+            display: flex
+    &-item
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        &:first-child
+            margin-left: 5px
+        &:last-child
+            margin-right: 5px
+        &__number
+            color: #ea4311
+            font-size: 36px
+            font-style: normal
+            letter-spacing: normal
+            line-height: normal
+            font-family: "Kurale", serif
+        &__text
+            color: #3c3c3b
+            font-family: 'Kurale', serif
+            font-size: 20px
+            font-weight: 400
+            font-style: normal
+            letter-spacing: normal
+            line-height: 22px
+
+@media (max-width: 768px)
+    .section-about
+        padding-top: 40px
+        padding-bottom: 40px
+    .about
+        &-status
+            margin-top: 30px
+        &-title
+            margin-bottom: 30px
+        &-line
+            margin-left: 20px
+            margin-right: 20px
+        &-item
+            &__number
+                font-size: 30px
+
+@media (max-width: 480px)
+    .about
+        &-status
+            &__left 
+                height: 90px
+            &__right
+                height: 90px
+        &-line
+            margin-left: 10px
+            margin-right: 10px
+        &-item
+            &:first-child
+                margin-left: 0px
+            &:last-child
+                margin-right: 0px
+            &__number
+                font-size: 24px
+            &__text
+                font-size: 18px
+                line-height: 16px
